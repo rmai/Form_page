@@ -7,3 +7,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+/*
+	8:9 major scale
+	http://www.modularscale.com/?18&px&1.125
+*/
+html {
+	  font-size: 1.125em;
+	  /* target/actual 18px/16px=1.125em */
+	  font-family: sans-serif;
+	  line-height: 1.222em;
+	  /* 22/18=1.222 */
+	  margin: 0.75em 0.75em 0.75em 0.75em;
+}
