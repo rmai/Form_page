@@ -38,5 +38,10 @@ footer {
 	justify-content: center;
 }
 img {
-	width: 33%;
+	width: 100%;
+}
+#nav2 {
+	width: auto;
+	display: flex;
+	justify-content: space-around;
 }
