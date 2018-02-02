@@ -36,13 +36,20 @@ h1 {
 footer {
 	display: flex;
 	justify-content: center;
-	padding-top: 0.75em;
+	padding-top: 1.5em;;
 }
-img {
-	width: 100%;
+/*img {
+	width: 33%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-#nav2 {
-	width: auto;
-	display: flex;
-	justify-content: space-around;
-}
+*/
+	img {
+		width: 100%;
+	}
+	#nav2 {
+		width: auto;
+		display: flex;
+		justify-content: space-around;
+	}
