@@ -19,6 +19,21 @@ html {
 	/* 22/18=1.222 */
 	margin: 0.75em 0.75em 0.75em 0.75em;
 }
+body {
+  padding-top: 2.444em;
+  /* 44px/18px = 2.444em */
+  padding-right: 1.222em;
+  /* 22px/18px = 1.222em */
+  padding-left: 1.222em;
+  /* 22px/18px = 1.222em */
+}
 h1 {
-	
+  font-size: 2.281em;
+  /* 41.053px/18px=2.281em*/
+  line-height: 1.072em;
+  /* 44px/41.053px = 1.072em */
+}
+footer {
+	display: flex;
+	justify-content: center;
 }
