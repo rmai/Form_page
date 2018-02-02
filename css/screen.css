@@ -18,6 +18,10 @@ html {
 	line-height: 1.222em;
 	/* 22/18=1.222 */
 	margin: 0.75em 0.75em 0.75em 0.75em;
+	/*background-image: url(../img/circlek.jpg);
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
 body {
   padding-top: 2.444em;
@@ -33,9 +37,16 @@ h1 {
   line-height: 1.072em;
   /* 44px/41.053px = 1.072em */
 }
+h2 {
+	padding-top: 1em;
+}
+ol {
+	padding-bottom: 1em;
+}
 li {
 	padding-top: 1em;
 }
+
 footer {
 	display: flex;
 	justify-content: center;
@@ -43,6 +54,15 @@ footer {
 }
 img {
 	width: 100%;
+}
+#submit {
+	height: 3em;
+
+}
+#contact-form input {
+	display: block;
+	width: 100%;
+	height: 3em;
 }
 #nav2 {
 	width: auto;
