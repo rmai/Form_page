@@ -6,5 +6,7 @@ $('#contact-form').on('submit',
     var lastname = $('#lastname').val();
     $(this).remove();
     $('body').append('<h1>Thank You, ' + firstname + ' ' + lastname + ' for your email address: ' + email + '</h1>');
+    $('#instruct').remove();
+    $('#footer').remove();
   }
 );
