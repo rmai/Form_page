@@ -18,10 +18,10 @@ html {
 	line-height: 1.222em;
 	/* 22/18=1.222 */
 	margin: 0.75em 0.75em 0.75em 0.75em;
-	/*background-image: url(../img/circlek.jpg);
+	background-image: url(../img/circlek.jpg);
 	background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;*/
+  background-size: cover;
 }
 body {
   padding-top: 2.444em;
@@ -36,9 +36,12 @@ h1 {
   /* 41.053px/18px=2.281em*/
   line-height: 1.072em;
   /* 44px/41.053px = 1.072em */
+  font-family: 'Montserrat', sans-serif;
+	color: red;
 }
 h2 {
 	padding-top: 1em;
+	color: white;
 }
 ol {
 	padding-bottom: 1em;
