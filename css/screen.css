@@ -59,12 +59,12 @@ img {
 }
 #submit {
 	height: 3em;
-
 }
 #contact-form input {
 	display: block;
 	width: 100%;
 	height: 3em;
+	opacity: 0.75;
 }
 #pics {
 	width: auto;
