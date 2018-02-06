@@ -18,10 +18,10 @@ html {
 	line-height: 1.222em;
 	/* 22/18=1.222 */
 	margin: 0.75em 0.75em 0.75em 0.75em;
-	background-image: url(../img/circlek.jpg);
+	background-image: url(../img/cki_logo.png);
 	background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /*background-size: cover;*/
 }
 body {
   padding-top: 2.444em;
@@ -41,7 +41,6 @@ h1 {
 }
 h2 {
 	padding-top: 1em;
-	color: white;
 }
 ol {
 	padding-bottom: 1em;
@@ -67,7 +66,7 @@ img {
 	width: 100%;
 	height: 3em;
 }
-#nav2 {
+#pics {
 	width: auto;
 	display: flex;
 	justify-content: space-around;
