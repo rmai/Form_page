@@ -21,7 +21,7 @@ html {
 	background-image: url(../img/cki_logo.png);
 	background-position: center;
   background-repeat: no-repeat;
-  /*background-size: cover;*/
+  background-size: 100%;
 }
 body {
   padding-top: 2.444em;
