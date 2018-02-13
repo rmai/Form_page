@@ -61,6 +61,9 @@ img {
 #submit {
 	height: 3em;
 }
+#submit:hover {
+	cursor: pointer;
+}
 #contact-form input {
 	display: block;
 	width: 100%;
