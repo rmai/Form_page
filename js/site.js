@@ -4,6 +4,12 @@ $('#contact-form').on('submit',
     if (document.getElementById("name").value == "" && document.getElementById("email").value == "" ) {
       window.alert("Please enter your name and email");
     }
+    else if (document.getElementById("name").value=="") {
+      window.alert("Please enter your name");
+    }
+    else if (document.getElementById("email").value=="") {
+      window.alert("Please enter your email");
+    }
     //when submit successfully
     else {
       console.log('The form was submitted.');
