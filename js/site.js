@@ -4,7 +4,7 @@ $('#contact-form').on('submit',
     var email = $('#email').val();
     var name = $('#name').val();
     $(this).remove();
-    $('body').append('<h1>Thank You, ' + firstname + ' ' + lastname + ' for your email address: ' + email + '</h1>');
+    $('body').append('<h1>Thank You, ' + name +  ' for your email address: ' + email + '</h1>');
     $('#instruct').remove();
     $('#footer').remove();
   }
