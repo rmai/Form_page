@@ -74,3 +74,6 @@ img {
 #pics {
 	column-count: 3;
 }
+#ename, #eemail {
+	color: red;
+}
