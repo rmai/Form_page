@@ -7,7 +7,6 @@ $('#contact-form').on('submit',
       document.getElementById("email").style.borderColor = "red";
       $('#nameblock').append('<p id="ename">Please enter your name</p>');
       $('#emailblock').append('<p id="eemail">Please enter your email</p>');
-
     }
     else if (document.getElementById("name").value =="") {
       //window.alert("Please enter your name");
@@ -18,7 +17,6 @@ $('#contact-form').on('submit',
       //window.alert("Please enter your email");
       document.getElementById("email").style.borderColor = "red";
       $('#emailblock').append('<p id="eemail">Please enter your email</p>');
-
     }
     //when submit successfully
     else {
