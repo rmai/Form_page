@@ -1,20 +1,20 @@
 $('#contact-form').on('submit',
   function() {
-    //when submit un successfully
+  //when submit un successfully
     if (document.getElementById("name").value === "" && document.getElementById("email").value == "" ) {
-      //window.alert("Please enter your name and email");
+    //window.alert("Please enter your name and email");
       document.getElementById("name").style.borderColor = "red";
       document.getElementById("email").style.borderColor = "red";
       $('#nameblock').append('<p id="ename">Please enter your name</p>');
       $('#emailblock').append('<p id="eemail">Please enter your email</p>');
     }
     else if (document.getElementById("name").value =="") {
-      //window.alert("Please enter your name");
+    //window.alert("Please enter your name");
       document.getElementById("name").style.borderColor = "red";
       $('#nameblock').append('<p id="ename">Please enter your name</p>');
     }
     else if (document.getElementById("email").value=="") {
-      //window.alert("Please enter your email");
+    //window.alert("Please enter your email");
       document.getElementById("email").style.borderColor = "red";
       $('#emailblock').append('<p id="eemail">Please enter your email</p>');
     }
