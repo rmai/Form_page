@@ -88,7 +88,7 @@ img {
     background-image: none
   }
 }
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 41.875em) {
   img {
     opacity: .9;
   }
