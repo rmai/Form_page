@@ -85,7 +85,7 @@ img {
     background-size: 100%;
   }
   form {
-    background-image: none
+    background-image: none;
   }
 }
 @media screen and (min-width: 41.875em) {
