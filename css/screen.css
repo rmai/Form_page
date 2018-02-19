@@ -32,7 +32,7 @@ h1 {
   /* 41.053px/18px=2.281em*/
   line-height: 1.072em;
   /* 44px/41.053px = 1.072em */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 p {
   padding-top: 1em;
@@ -90,6 +90,6 @@ img {
 }
 @media screen and (min-width: 41.875em) {
   img {
-    opacity: .9;
+    opacity: 0.9;
   }
 }
