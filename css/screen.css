@@ -17,11 +17,7 @@ html {
   font-family: sans-serif;
   line-height: 1.222em;
   /* 22/18=1.222 */
-  margin: 0.75em 0.75em 0.75em 0.75em;
-  background-image: url(../img/cki.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  margin: 0.75em 0.75em 0.75em 0.75em;\
 }
 body {
   padding-top: 2.444em;
@@ -38,7 +34,7 @@ h1 {
   /* 44px/41.053px = 1.072em */
   font-family: 'Montserrat', sans-serif;
 }
-h2 {
+p {
   padding-top: 1em;
 }
 ol {
@@ -47,7 +43,12 @@ ol {
 li {
   padding-top: 1em;
 }
-
+form {
+  background-image: url(../img/cki.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 footer {
   position: relative;
   padding-top: 1.5em;
@@ -75,4 +76,20 @@ img {
 }
 #ename, #eemail {
   color: red;
+}
+@media screen and (min-width: 31.25em) {
+  body {
+    background-image: url(../img/cki.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  form {
+    background-image: none
+  }
+}
+@media screen and (min-width: 670px) {
+  img {
+    opacity: .9;
+  }
 }
